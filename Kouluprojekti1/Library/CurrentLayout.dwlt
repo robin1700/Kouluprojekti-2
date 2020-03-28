@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 679, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 128
+  controlID: 12
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 519
     height: 1307
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 505
     height: 929
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 2041
     height: 1307
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 109
+  controlID: 13
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 2041
     height: 929
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 110
+  controlID: 14
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,10 +294,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 384
-    y: 81
-    width: 1138
-    height: 637
+    x: 505
+    y: 73
+    width: 1532
+    height: 909
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Breakable Windows/Prefabs
+    - Assets/PolygonalMind/LowPolyOffice/Props/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Breakable Windows/Prefabs
+  - Assets/PolygonalMind/LowPolyOffice/Props/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Robin\Documents\GitHub\Kouluprojekti-2\Kouluprojekti1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: b64b0000
-    m_LastClickedID: 19382
-    m_ExpandedIDs: 00000000e63c0000783f0000b83f000016400000cc400000fa40000090420000d0430000804a0000b04b0000b24c0000b2550000
+    scrollPos: {x: 0, y: 63}
+    m_SelectedIDs: c81a0000
+    m_LastClickedID: 6856
+    m_ExpandedIDs: 00000000d40b0000980e0000e40e0000420f0000041000003410000006120000de1a00009a1b00001a1c00003c1d0000da430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e63c0000783f0000b83f000016400000cc400000fa40000090420000d0430000b04b0000b24c0000b2550000
+    m_ExpandedIDs: 00000000d40b0000980e0000e40e0000420f00000410000034100000061200007c130000de1a00001a1c00003c1d0000da430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,24 +496,24 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ecceffff
-      m_LastClickedID: -12564
-      m_ExpandedIDs: e093feffd2d3ffff3c500000
+      scrollPos: {x: 0, y: 564}
+      m_SelectedIDs: 54200000
+      m_LastClickedID: 8276
+      m_ExpandedIDs: 6edeffff26f7ffff30f7ffffdefbffffb0210000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -93216
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -555,9 +555,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -170.25722, y: -119.07369, z: 414.971}
+    m_Target: {x: -0.5846868, y: -6.3840666, z: 4.7706265}
     speed: 2
-    m_Value: {x: -170.25722, y: -119.07369, z: 414.971}
+    m_Value: {x: -0.5846868, y: -6.3840666, z: 4.7706265}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -585,13 +585,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.13219288, y: 0.19955227, z: -0.027175806, w: -0.970549}
+    m_Target: {x: -0.34558144, y: 0.010117237, z: -0.0037224991, w: -0.93832684}
     speed: 2
-    m_Value: {x: -0.1321929, y: 0.19955228, z: -0.027175808, w: -0.97054905}
+    m_Value: {x: -0.34558144, y: 0.010117237, z: -0.0037224991, w: -0.93832684}
   m_Size:
-    m_Target: 474.87845
+    m_Target: 12.6747
     speed: 2
-    m_Value: 474.87845
+    m_Value: 12.6747
   m_Ortho:
     m_Target: 0
     speed: 2

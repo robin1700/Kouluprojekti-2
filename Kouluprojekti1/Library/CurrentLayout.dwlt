@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 119
+  controlID: 12
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,19 +337,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Robin\Documents\GitHub\Kouluprojekti-2\Kouluprojekti1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e0e0000
-    m_LastClickedID: 3742
+    m_SelectedIDs: dc0b0000
+    m_LastClickedID: 3036
     m_ExpandedIDs: 00000000dc0b00009e0e0000480f00000a1000003a1000000c1200007e1c0000fe1c0000983e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -497,9 +497,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34d8ffff90f9ffffdefbffff
+      m_SelectedIDs: f84d0000
+      m_LastClickedID: 19960
+      m_ExpandedIDs: deedffff72f9ffffdefbffffde4d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -555,9 +555,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.25327796, y: -22.721922, z: -9.760348}
+    m_Target: {x: -0.7790359, y: -18.008795, z: -12.026229}
     speed: 2
-    m_Value: {x: 0.25327796, y: -22.721922, z: -9.760348}
+    m_Value: {x: -0.7790359, y: -18.008795, z: -12.026229}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -585,13 +585,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.5743904, y: 0.08172781, z: -0.057781957, w: 0.8124392}
+    m_Target: {x: 0.45894632, y: 0.220615, z: -0.118783675, w: 0.85240126}
     speed: 2
-    m_Value: {x: 0.5743904, y: 0.08172781, z: -0.057781957, w: 0.8124392}
+    m_Value: {x: 0.45894632, y: 0.220615, z: -0.118783675, w: 0.85240126}
   m_Size:
-    m_Target: 3.5363078
+    m_Target: -0.6636919
     speed: 2
-    m_Value: 3.5363078
+    m_Value: -0.6636919
   m_Ortho:
     m_Target: 0
     speed: 2

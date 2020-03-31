@@ -15,7 +15,7 @@ public class ThrowObject : MonoBehaviour
     RaycastHit hit;
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+      //  audio = GetComponent<AudioSource>();
     }
 
     void Update()

@@ -34,6 +34,22 @@ public class Throw2 : MonoBehaviour
                 item.GetComponent<Rigidbody>().AddForce(tempParent.transform.forward * throwForce);
                 isHolding = false;
             }
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                transform.Rotate(new Vector3(0, 20, 0), Space.Self);
+
+            }
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                transform.Rotate(new Vector3(30, 0, 0), Space.Self);
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                transform.Rotate(new Vector3(0, 0, 30), Space.Self);
+            }
+
+
         }
         else
         {
@@ -42,6 +58,10 @@ public class Throw2 : MonoBehaviour
             item.GetComponent<Rigidbody>().useGravity = true;
             item.transform.position = objectPos;
         }
+
+      
+
+
     }
 
     void OnMouseDown()

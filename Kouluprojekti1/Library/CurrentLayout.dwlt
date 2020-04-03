@@ -23,7 +23,6 @@ MonoBehaviour:
   m_RootView: {fileID: 2}
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -112,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 28704
+  controlID: 14
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 2041
     height: 1307
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 28705
+  controlID: 153
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 2041
     height: 865
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 28706
+  controlID: 154
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 486
     height: 865
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -383,10 +382,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1216}
-      m_SelectedIDs: 0c2f0000
-      m_LastClickedID: 12044
-      m_ExpandedIDs: 0850fdffb2ecfdffaaf0ffffc4f0ffffaef6ffffdefbffff982d00002c300000143200005634000026360000
+      scrollPos: {x: 0, y: 4140}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1ce9feffdead0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -618,20 +617,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Robin\Documents\GitHub\Kouluprojekti-2\Kouluprojekti1
+  m_LastProjectPath: C:\Users\henri\Documents\GitHub\Kouluprojekti-2\Kouluprojekti1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 15}
-    m_SelectedIDs: 040e0000
-    m_LastClickedID: 3588
-    m_ExpandedIDs: 00000000040e0000b20f00008c12000090130000d214000012150000421b000086230000c223000002250000e826000096290000482a00005a5900005c5900005e590000605900006259000064590000
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: 6e950000
+    m_LastClickedID: 38254
+    m_ExpandedIDs: 0000000068920000829300006e9500001c960000d496000004970000c89a0000469f0000749f00003ca0000058a10000b6a200000ea3000062b4000064b4000066b4000068b400006ab400006cb4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -659,7 +658,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000040e0000b20f00008c12000090130000d214000012150000421b000086230000c223000002250000e826000096290000482a00005a5900005c5900005e590000605900006259000064590000
+    m_ExpandedIDs: 0000000068920000829300006e9500001c960000d496000004970000c89a0000469f0000749f00003ca0000058a10000b6a200000ea3000062b4000064b4000066b4000068b400006ab400006cb40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

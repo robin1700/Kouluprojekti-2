@@ -11,11 +11,15 @@ public class kakkaa : MonoBehaviour
     private bool on = false;
     void OnTriggerStay(Collider plyr)
     {
-         Destroy(esine3);
+        if (plyr.tag == "Respawn")
+        {
+        Destroy(esine3);
         esine.SetActive(true);
         on = true;
         esine2.SetActive(true);
         on = true;
+        }
+        
        
     }
 }

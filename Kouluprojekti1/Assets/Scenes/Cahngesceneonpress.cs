@@ -33,6 +33,8 @@ public class Cahngesceneonpress : MonoBehaviour
         {
             Item6false.SetActive(false);
             on = false;
+            Item5false.SetActive(false);
+            on = false;
             Item.SetActive(true);
             on = true;
             Item2.SetActive(true);
@@ -41,8 +43,7 @@ public class Cahngesceneonpress : MonoBehaviour
             on = true;
             Item4.SetActive(true);
             on = true;
-            Item5false.SetActive(false);
-            on = false;
+
 
       
         }

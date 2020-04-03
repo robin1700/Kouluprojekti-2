@@ -23,13 +23,11 @@ public class Rotateobject : MonoBehaviour
             transform.Rotate(-Vector3.left * speed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.A))
-            transform.Rotate(Vector3.forward * speed * Time.deltaTime);
+            transform.Rotate(-Vector3.up * speed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.D))
-            transform.Rotate(-Vector3.forward * speed * Time.deltaTime);
+            transform.Rotate(Vector3.up * speed * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.Space))
-            Application.LoadLevel(Application.loadedLevel);
 
     }
 }

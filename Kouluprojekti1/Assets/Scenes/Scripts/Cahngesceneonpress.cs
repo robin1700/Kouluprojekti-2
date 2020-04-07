@@ -24,7 +24,24 @@ public class Cahngesceneonpress : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    Item6false.SetActive(true);
+        //    on = true;
+        //    Item5false.SetActive(true);
+        //    on = true;
+        //    Item.SetActive(false);
+        //    on = false;
+        //    Item2.SetActive(false);
+        //    on = false;
+        //    Item3.SetActive(false);
+        //    on = false;
+        //    Item4.SetActive(false);
+        //    on = false;
+
+
+
+        //}
     }
     void OnTriggerStay(Collider plyr)
     {
@@ -47,6 +64,8 @@ public class Cahngesceneonpress : MonoBehaviour
 
       
         }
+
+        
 
 
     }

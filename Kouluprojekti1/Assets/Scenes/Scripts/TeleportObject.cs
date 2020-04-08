@@ -19,6 +19,7 @@ public class TeleportObject : MonoBehaviour
     public GameObject SpawnableObj;
     public GameObject DestroyObj;
     public AudioSource Audio;
+    public GameObject trigger;
 
       
     private void OnTriggerEnter(Collider other)
@@ -31,6 +32,8 @@ public class TeleportObject : MonoBehaviour
             SpawnableObj.SetActive(true);
             Destroy(DestroyObj);
             Audio.Play();
+            trigger.SetActive(false);
+
 
         }
 

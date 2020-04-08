@@ -24,45 +24,49 @@ public class Cahngesceneonpress : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.F))
-        //{
-        //    Item6false.SetActive(true);
-        //    on = true;
-        //    Item5false.SetActive(true);
-        //    on = true;
-        //    Item.SetActive(false);
-        //    on = false;
-        //    Item2.SetActive(false);
-        //    on = false;
-        //    Item3.SetActive(false);
-        //    on = false;
-        //    Item4.SetActive(false);
-        //    on = false;
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            //Item2.SetActive(false);
+            //on = false;
+            //Item5false.SetActive(true);
+            //on = true;
+            //Item.SetActive(false);
+            //on = false;
+            //Item6false.SetActive(true);
+            //on = true;
+
+            //Item4.SetActive(false);
+            //on = false;
 
 
-
-        //}
+            //Item3.SetActive(false);
+            //on = false;
+        }
     }
     void OnTriggerStay(Collider plyr)
     {
 
         if (plyr.tag == "Player" && Input.GetKeyDown(KeyCode.E))
         {
-            Item6false.SetActive(false);
-            on = false;
+
+            Item2.SetActive(true);
+            on = true;
             Item5false.SetActive(false);
             on = false;
             Item.SetActive(true);
             on = true;
-            Item2.SetActive(true);
-            on = true;
+            Item6false.SetActive(false);
+            on = false;
+
+            Item4.SetActive(false);
+            on =false;
             Item3.SetActive(true);
             on = true;
-            Item4.SetActive(true);
-            on = true;
 
 
-      
+
+
+
         }
 
         

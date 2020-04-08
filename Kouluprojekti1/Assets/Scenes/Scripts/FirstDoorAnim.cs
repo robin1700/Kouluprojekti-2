@@ -19,6 +19,10 @@ public class FirstDoorAnim : MonoBehaviour
         {
             anim.Play("Door1");
         }
+        if (Key.tag == "Key")
+        {
+            anim.Play("Door1");
+        }
 
     }
 }

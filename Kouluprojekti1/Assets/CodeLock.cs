@@ -17,6 +17,12 @@ public class CodeLock : MonoBehaviour
     private void Start()
     {
         codeLength = code.Length;
+        
+        
+    }
+    public void Update()
+    {
+        textdisplay.GetComponent<TextMesh>().text = attemptedCode;
     }
 
     void CheckCode()
@@ -54,14 +60,11 @@ public class CodeLock : MonoBehaviour
         if(placeInCode == codeLength)
         {
             CheckCode();
-
+            
             attemptedCode = "";
             placeInCode = 0;
         }
     }
 
-    void Update()
-    {
-        textdisplay.GetComponent<Text>().text = attemptedCode;
-    }
+
 }

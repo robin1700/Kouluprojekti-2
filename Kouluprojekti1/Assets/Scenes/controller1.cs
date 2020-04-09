@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class controller1 : MonoBehaviour
 {
-    CodeLock1 codeLock;
+    CodeLock codeLock;
 
     int reachRange = 100;
 
@@ -14,8 +14,9 @@ public class controller1 : MonoBehaviour
         {
             CheckHitObj();
         }
-
+               
     }
+    
 
     void CheckHitObj()
     {
@@ -24,7 +25,7 @@ public class controller1 : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, reachRange))
         {
-            codeLock = hit.transform.gameObject.GetComponentInParent<CodeLock1>();
+            codeLock = hit.transform.gameObject.GetComponentInParent<CodeLock>();
 
             if (codeLock != null)
             {

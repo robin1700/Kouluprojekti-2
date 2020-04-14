@@ -39,11 +39,11 @@ public class CodeLock : MonoBehaviour
 
     IEnumerator Open()
     {
+        toOpen.Rotate(new Vector3(0, -100, 0), Space.World);
+
+        yield return new WaitForSeconds(15);
+
         toOpen.Rotate(new Vector3(0, 100, 0), Space.World);
-
-        yield return new WaitForSeconds(4);
-
-        toOpen.Rotate(new Vector3(0,-100, 0), Space.World);
 
     }
 

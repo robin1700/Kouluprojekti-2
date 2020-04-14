@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class CodeLock : MonoBehaviour
 {
     int codeLength;
@@ -44,6 +45,7 @@ public class CodeLock : MonoBehaviour
         yield return new WaitForSeconds(15);
 
         toOpen.Rotate(new Vector3(0, 100, 0), Space.World);
+
 
     }
 

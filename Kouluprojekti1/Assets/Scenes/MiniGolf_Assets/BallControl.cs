@@ -21,14 +21,14 @@ public class BallControl : MonoBehaviour
     void Update()
     {
                 // Pallon ohjaaminen
-        if (Input.GetKeyDown("z"))
+        if (Input.GetKeyDown("i"))
         {
-            zForce += 200;
+            zForce += 20;
             yScale += 1;
-            if (zForce > 4400)
+            if (zForce > 200)
             {
-                zForce = 4400;
-                yScale = 22;
+                zForce = 200;
+                yScale = 10;
             }
                 // Skaalataan nuolen kokoa voiman näyttämiseksi
             aimarrow.GetComponent<Transform>().localScale = new Vector3(1, yScale, 1);
@@ -36,9 +36,9 @@ public class BallControl : MonoBehaviour
 
 
                 // Pallon ohjaaminen
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("k"))
         {
-            zForce -= 200;
+            zForce -= 20;
             yScale -= 1;
             if (zForce < 0)
             {
@@ -50,18 +50,18 @@ public class BallControl : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("j"))
         {
             transform.Rotate(0, -10, 0);
         }
 
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKeyDown("l"))
         {
             transform.Rotate(0, 10, 0);
         }
 
                 // Kamera seuraa palloa
-        maincam.GetComponent<Rigidbody>().velocity = GetComponent<Rigidbody>().velocity;
+        //maincam.GetComponent<Rigidbody>().velocity = GetComponent<Rigidbody>().velocity;
     }
 
 

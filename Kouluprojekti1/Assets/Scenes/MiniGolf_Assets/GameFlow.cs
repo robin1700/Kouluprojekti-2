@@ -19,7 +19,7 @@ public class GameFlow : MonoBehaviour
     
     void Update()
     {
-        CurrentStrokes.GetComponent<Text>().text = course1.ToString() + "   Strokes\n \n a = Left \n d = Right \n z = Increase Power \n c = Decrease Power";
+        //CurrentStrokes.GetComponent<Text>().text = course1.ToString() + "   Strokes\n \n a = Left \n d = Right \n z = Increase Power \n c = Decrease Power";
         //CurrentStrokes.GetComponent<Text>().text = course1.ToString() + "     " + remCourse1.ToString();
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Openwindow : MonoBehaviour
 {
     public Animator anim;
+    public AudioSource Windowaudio;
     
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class Openwindow : MonoBehaviour
         if (plyr.tag == "Player" && Input.GetKeyDown(KeyCode.E))
         {
             anim.Play("WindowRise");
+            Windowaudio.Play();
         }
     }
 }

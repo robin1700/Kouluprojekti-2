@@ -37,6 +37,11 @@ public class TeleportObject : MonoBehaviour
 
         }
 
+        if (Input.GetKey(KeyCode.E))
+        {
+            Audio.Play();
+        }
+
     }
    
 } 

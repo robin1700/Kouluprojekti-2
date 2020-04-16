@@ -7,6 +7,8 @@ public class EndScreen : MonoBehaviour
 {
     public void MainMenu()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("Menu");
 
         
@@ -15,7 +17,9 @@ public class EndScreen : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Menu");
+            //SceneManager.LoadScene("Menu");
+            Debug.Log("QUIT");
+            Application.Quit();
         }
     }
 }

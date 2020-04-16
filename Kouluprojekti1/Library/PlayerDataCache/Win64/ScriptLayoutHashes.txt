@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/juuso/Desktop/Peli/Kouluprojekti1.exe
+C:/Users/Robin/Desktop/Office escape/Kouluprojekti1.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Pääpeli.unity
@@ -75,6 +75,8 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 352455aaadb8c98ff36ead557753abfa Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 357dc9516c87a9d2caf5c0f50c455e56 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterBase
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -157,7 +159,7 @@ d67515fd6babd339b8727dc35ae03966 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 e3e5ed3bb4e4fe515f193544dff599e9 Assembly-CSharp.dll:.Throw2
 36addd2fd928c0f481fef63cf976b73f Assembly-CSharp.dll:.GameFlow
 dd7520b7d4e690e8c593273e7b9fbe80 Assembly-CSharp.dll:TMPro.Examples.TMP_TextEventCheck
-3b43b3363747d8da4de631f52bbfc1cc Assembly-CSharp.dll:.kakkaa
+ef5c30354ce7b21ff45d049178abe55b Assembly-CSharp.dll:.kakkaa
 9452dc0dca800cf5f781114ef25a9a87 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
@@ -226,6 +228,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Restarter
+0f01f59e4926e9c3f19a0031b086a70a Assembly-CSharp.dll:.exitmaze
 6044529815c0850359298e2f87d67d0b Assembly-CSharp.dll:UnityStandardAssets.SceneUtils.SlowMoButton
 97a580c59cad3623a01bbf5fb2d7fa93 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.SpecularLighting
 9a40de0f5a84ec02044ccfb05875df71 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit

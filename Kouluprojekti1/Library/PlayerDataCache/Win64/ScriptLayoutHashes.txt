@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Robin/Desktop/Office escape/Kouluprojekti1.exe
+C:/Users/juuso/Desktop/Peli/Kouluprojekti1.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Pääpeli.unity

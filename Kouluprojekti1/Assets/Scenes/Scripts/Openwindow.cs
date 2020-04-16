@@ -6,20 +6,42 @@ public class Openwindow : MonoBehaviour
 {
     public Animator anim;
     public AudioSource Windowaudio;
-    
+    bool isPlayerIn;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void OnTriggerStay(Collider plyr)
+    void Update()
     {
-        if (plyr.tag == "Player" && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerIn)
         {
-            anim.Play("WindowRise");
-            Windowaudio.Play();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                anim.Play("WindowRise");
+                Windowaudio.Play();
+            }
         }
     }
+
+    // Update is called once per frame
+    void OnTriggerEnter(Collider plyr)
+    {
+        if (plyr.tag == "Player")
+        {
+            isPlayerIn = true;
+        }
+
+    }
+
+    void OnTriggerExit(Collider plyr)
+    {
+        if (plyr.tag == "Player")
+        {
+            isPlayerIn = false;
+        }
+    }
+
 }

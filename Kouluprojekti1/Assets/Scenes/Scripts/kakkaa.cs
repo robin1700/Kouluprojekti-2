@@ -8,18 +8,23 @@ public class kakkaa : MonoBehaviour
     public GameObject esine;
     public GameObject esine2;
     public GameObject esine3;
+    public GameObject esine4;
+    public GameObject esine5;
+
+
     private bool on = false;
-    void OnTriggerStay(Collider plyr)
+    void OnTriggerEnter(Collider plyr)
     {
         if (plyr.tag == "Respawn")
         {
-        Destroy(esine3);
-        esine.SetActive(true);
-        on = true;
-        esine2.SetActive(true);
-        on = true;
+
+            Destroy(esine3);
+            Destroy(esine5);
+            esine.SetActive(true);
+            esine4.SetActive(true);
+            esine2.SetActive(true);
         }
-        
-       
+
+
     }
 }

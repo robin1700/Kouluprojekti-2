@@ -50743,6 +50743,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 371625929}
     m_Modifications:
+    - target: {fileID: 7279432946009488772, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_text
+      value: 'BALL MAZE
+
+
+        TILT - WASD'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279432946009488772, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279432946009488772, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279432946009488772, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279432946009488772, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279432946456686080, guid: 2b067cf8fefba204fa27b52ee136b548,
+        type: 3}
+      propertyPath: m_text
+      value: "\tGOLF\n\nAIM LEFT - J\nAIM RIGHT - L\nMORE POWER - I\nLESS POWER -
+        K\nHIT THE BALL - LMB"
+      objectReference: {fileID: 0}
     - target: {fileID: 7279432946559844998, guid: 2b067cf8fefba204fa27b52ee136b548,
         type: 3}
       propertyPath: m_text
